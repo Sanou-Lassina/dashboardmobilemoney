@@ -282,6 +282,13 @@ st.markdown(f"""
         Période : {d1.strftime('%d/%m/%Y')} → {d2.strftime('%d/%m/%Y')}
         &nbsp;|&nbsp; {len(dff):,} transactions filtrées
     </p>
+    <p style="color:#FFD6B8;margin:10px 0 0;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.2);padding-top:8px;">
+        ✍️ <b style="color:white;">Auteur :</b> Lassina SANOU &nbsp;|&nbsp;
+        <a href="https://sanou-lassina.github.io/Ma_Page/" target="_blank"
+            style="color:{ORANGE};font-weight:700;text-decoration:none;">
+            📩 Pour me contacter, cliquez ici
+        </a>
+    </p>
 </div>
 """, unsafe_allow_html=True)
 
