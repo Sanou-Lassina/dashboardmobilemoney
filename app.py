@@ -283,7 +283,7 @@ st.markdown(f"""
         &nbsp;|&nbsp; {len(dff):,} transactions filtrées
     </p>
     <p style="color:#FFD6B8;margin:10px 0 0;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.2);padding-top:8px;">
-        ✍️ <b style="color:white;">Auteur :</b> Lassina SANOU &nbsp;|&nbsp;
+        ✍️ <b style="color:white;">Auteur :</b> Lassina SANOU - Data Analyst Data Scientist &nbsp;|&nbsp;
         <a href="https://sanou-lassina.github.io/Ma_Page/" target="_blank"
             style="color:{ORANGE};font-weight:700;text-decoration:none;">
             📩 Pour me contacter, cliquez ici
