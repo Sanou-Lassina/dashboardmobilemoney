@@ -683,7 +683,7 @@ with tabs[3]:
     st.markdown('<div class="section-title">🔀 Tableau Croisé Produit × Canal</div>', unsafe_allow_html=True)
     cross = dff_ok.pivot_table(index="Produit", columns="Canal",
                                 values="Montant (FCFA)", aggfunc="sum", fill_value=0)
-    cross_fmt = cross.applymap(lambda x: f"{int(x):,}".replace(",", " ") if x > 0 else "–")
+    cross_fmt = cross.map(lambda x: f"{int(x):,}".replace(",", " ") if x > 0 else "–")
     st.dataframe(cross_fmt, use_container_width=True)
 
 
